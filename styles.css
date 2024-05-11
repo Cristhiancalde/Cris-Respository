@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,7000,800,900&display=swap');
+ * {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+ }
+
+ section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    transition: 0.6s;
+ }
+
+ .cajatexto {
+   position: relative;
+   top: 5%;
+   left: 5%;
+   right: 1%;
+   align-items: center;
+   justify-content: space-between;
+   margin-left: 20px;
+
+
+ }
+
+ header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+
+ header ul {
+    position: relative;
+    display: flex;
+    width: 300px;
+
+ }
+ h1 {
+  color: rgb(247, 0, 255);
+  position: relative ;
+  width: 100%;
+ }
+ h2 {
+   color: rgb(58, 3, 42);
+   position: relative ;
+   width: 100%;
+  }
+   a1 {
+   color: rgb(9, 23, 104);
+   position: relative;
+   width: 100%;
+   border: 2px solid sandybrown;
+   border-radius: 25px;
+   cursor: pointer;
+  }
+  a1:hover {
+   color: rgb(5, 5, 5);
+   background-color: rgb(218, 125, 3);
+  }
+
+ header ul li  {
+    list-style: none;
+
+ }
+
+ header ul li a {
+    display: inline-block;
+    color: black;
+    font-weight: 10;
+    margin-left: 20px;
+    text-decoration: none;
+
+ }
+ header ul li a:hover {
+   color: chocolate;
+ }
+
+.cajaImagen b img:hover {
+   transform: translateY(-10px);
+
+}
+.cajaImagen b img { 
+   cursor: pointer;
+   margin: 0 20px;
+   list-style: none;
+   transition: 0.8s;
+   top: 50%;
+
+}
+
+
+.cajaImagen b img  {
+   
+   border-radius: 30px;
+   padding: 20px ;   
+}
+
+.social {
+   position: absolute;
+   top: 30%;
+   right: 110%;
+   transform: translateY(-50%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
